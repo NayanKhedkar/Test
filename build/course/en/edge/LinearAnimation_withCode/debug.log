@@ -1,0 +1,18 @@
+[0522/091952:ERROR:gpu_info_collector_win.cc(91)] Can't retrieve a valid WinSAT assessment.
+[0522/092006:ERROR:gl_surface_egl.cc(63)] eglInitialize failed with error UNKNOWN
+[0522/092006:ERROR:gl_surface_win.cc(54)] GLSurfaceEGL::InitializeOneOff failed.
+[0522/092006:ERROR:gl_surface_egl.cc(63)] eglInitialize failed with error UNKNOWN
+[0522/092006:ERROR:gl_surface_win.cc(54)] GLSurfaceEGL::InitializeOneOff failed.
+[0522/092007:ERROR:gl_surface_egl.cc(63)] eglInitialize failed with error UNKNOWN
+[0522/092007:ERROR:gl_surface_win.cc(54)] GLSurfaceEGL::InitializeOneOff failed.
+[0522/092834:ERROR:ipc_channel_win.cc(401)] pipe error: 232
+[0522/092834:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+[0522/092838:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (about:blank:0:45), <anonymous>:1:7)
+    at about:blank:0:45", source:  (1)
+[0522/092939:INFO:CONSOLE(0)] "ReferenceError: EdgeDOM is not defined
+    at about:blank:0:7", source: about:blank (0)
+[0522/093213:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+[0522/093213:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (about:blank:0:45), <anonymous>:1:7)
+    at about:blank:0:47", source:  (1)

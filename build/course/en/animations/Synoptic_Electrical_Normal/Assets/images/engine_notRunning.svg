@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 34.993 66.201" style="enable-background:new 0 0 34.993 66.201;" xml:space="preserve">
+<g id="engine_x5F_notRunning">
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="433.0072" y1="33.1006" x2="468" y2="33.1006" gradientTransform="matrix(-1 0 0 1 468 0)">
+		<stop  offset="0" style="stop-color:#191919"/>
+		<stop  offset="0.1409" style="stop-color:#222222"/>
+		<stop  offset="0.3708" style="stop-color:#3A3A3A"/>
+		<stop  offset="0.6609" style="stop-color:#626262"/>
+		<stop  offset="0.9971" style="stop-color:#999999"/>
+		<stop  offset="1" style="stop-color:#999999"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_1_);" d="M27.967,0c0,0,7.606,0.103,6.99,5.859c-0.617,5.757-6.08,57.052-6.08,57.052
+		c0,1.817-5.097,3.29-11.38,3.29c-6.287,0-11.384-1.473-11.384-3.29c0,0-5.463-51.295-6.078-57.052C-0.582,0.103,7.026,0,7.026,0
+		H27.967z"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="6.1137" y1="62.9112" x2="28.8774" y2="62.9112">
+		<stop  offset="0" style="stop-color:#999999"/>
+		<stop  offset="0.3889" style="stop-color:#5B5B5B"/>
+		<stop  offset="0.7306" style="stop-color:#2B2B2B"/>
+		<stop  offset="0.9" style="stop-color:#191919"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_2_);" d="M28.877,62.911c0,1.817-5.097,3.29-11.38,3.29c-6.287,0-11.384-1.473-11.384-3.29
+		c0-1.817,5.097-3.29,11.384-3.29C23.781,59.621,28.877,61.094,28.877,62.911z"/>
+	<path style="fill:none;" d="M27.967,0c0,0,7.606,0.103,6.99,5.859c-0.617,5.757-6.08,57.052-6.08,57.052
+		c0,1.817-5.097,3.29-11.38,3.29c-6.287,0-11.384-1.473-11.384-3.29c0,0-5.463-51.295-6.078-57.052C-0.582,0.103,7.026,0,7.026,0
+		H27.967z"/>
+</g>
+<g id="Layer_1">
+</g>
+</svg>

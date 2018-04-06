@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://openajax.org/metadata" spec="1.0" id="tag:adobe.com,2012-03:edge:oam:compid:EDGE-235715816" name="ElectricalComponentsLocation" version="1">
+
+  <description type="text/html"><![CDATA[Widget Exported from Adobe Edge]]></description>
+  <category name="Adobe Edge Animation"/>
+
+  <remarks>Compatible with: InDesign CC, Dreamweaver CC, Muse</remarks>
+
+  <icon src="images/icon.png" width="1200" height="720" />
+
+  <require type="other" src="ElectricalComponentsLocation.html" />
+  <require type="other" src="images/aircraftLocator.svg" />
+  <require type="other" src="images/ElectricalSynop_APU.svg" />
+  <require type="other" src="images/ElectSynop_Normal.svg" />
+  <require type="other" src="images/ExternalPower.svg" />
+  <require type="other" src="styles/digitalbusStyles.css" />
+  <require type="other" src="styles/digitalbusStyles2.css" />
+  <require type="other" src="styles/graphicStyles.css" />
+  <require type="other" src="styles/shapeSymbols.css" />
+  <require type="other" src="styles/textStyling.css" />
+  <require type="other" src="styles/fonts/batcadf_1-webfont.eot" />
+  <require type="other" src="styles/fonts/batcadf_1-webfont.svg" />
+  <require type="other" src="styles/fonts/batcadf_1-webfont.ttf" />
+  <require type="other" src="styles/fonts/batcadf_1-webfont.woff" />
+  <require type="other" src="styles/fonts/batcadf_1-webfont.woff2" />
+
+  <require type="javascript" src="ElectricalComponentsLocation_edge.js" />
+  <require type="javascript" src="ElectricalComponentsLocation_edgeActions.js" />
+  <require type="javascript" src="ElectricalComponentsLocation_edgePreload.js" />
+  <require type="javascript" src="edge_includes/edge.4.0.1.min.js" />
+  <require type="javascript" src="edge_includes/jquery-2.0.3.min.js" />
+
+  <require type="image" src="images/icon.png" />
+  <require type="image" src="images/Poster.png" />
+
+  <require type="folder" src="edge_includes" />
+  <require type="folder" src="images" />
+  <require type="folder" src="styles" />
+  <require type="folder" src="styles/fonts" />
+
+
+  <content><![CDATA[
+    <div class="EDGE-235715816"></div>
+  ]]></content>
+   
+  <properties name="Properties">
+    <property name="default-width" defaultValue="1200" hidden="true"/>
+    <property name="default-height" defaultValue="720" hidden="true"/>
+    <property name="resizable" defaultValue="true" hidden="true"/>				
+		<property name="centering" defaultValue="horizontal" hidden="true"/>				
+		<property name="scaling" defaultValue="both" hidden="true"/>
+    <property name="html-page" defaultValue="ElectricalComponentsLocation.html" hidden="true"/>
+  </properties>
+
+</widget>

@@ -1,0 +1,1788 @@
+[
+  {
+    "_id": "c-05",
+    "_parentId": "b-05",
+    "_type": "component",
+    "_component": "text",
+    "_classes": "",
+    "_layout": "left",
+    "title": "Introduction",
+    "displayTitle": "",
+    "body": "Adapt allows you to combine text and graphic components on the scrolling page to create rich and varied learning experiences. In addition, a wide range of interactive components are also available to help encourage deeper engagement with the material.<br><br>These presentation components can be structured in any way to help you create learning experiences that meet the needs of your learners.",
+    "instruction": "Scroll down to see what presentation components are available as part of the Version 2.0 core bundle.",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_wcn": {
+     "_isEnabled": true,
+    "_warning": {
+          "title": "WARNING",
+          "text": "The simple text component can often be the best choice for imparting information, particularly when used in conjunction with complementary graphics."
+      },
+      "_caution": {
+          "title": "CAUTION",
+          "text": "The simple text component can often be the best choice for imparting information, particularly when used in conjunction with complementary "
+      },
+      "_note": {
+          "title": "NOTE",
+          "text": "Sometimes we need to make use of rich media to really drive home a point, bring a complex subject to life or just let audio to literally do the talking. This is when the media component comes to the fore."
+      },
+     "audioSrc": "course/en/audio/hot-graphic1",
+     "audioTypes": {
+         "type": "mp3",
+         "codec": "audio/mpeg"
+        }
+    },
+    "_didYouKnow": {
+      "_isEnabled": true,
+      "_button": {
+        "text": "Did You Know?"
+      },
+      "_popup": {
+        "title": "Did You Know?",
+        "body": "The VFGs are rated to 75 kVA for continuous opration, up to 112.4 kVA for 5 minutes, and upto 150 kVA for 5 seconds."
+      }
+    }
+  },
+  {
+    "_id": "c-10",
+    "_parentId": "b-05",
+    "_type": "component",
+    "_component": "blank",
+    "_classes": "",
+    "_layout": "right",
+    "title": "c-10"
+  },
+  {
+    "_id": "c-15",
+    "_parentId": "b-10",
+    "_type": "component",
+    "_component": "text",
+    "_classes": "",
+    "_layout": "left",
+    "title": "Text components",
+    "displayTitle": "",
+    "body": "The simple text component can often be the best choice for imparting information, particularly when used in conjunction with complementary graphics. In this example we’ve used the blank component to the right to create a window through to the block background.<br><br>Remember, content doesn’t always warrant an interaction so less can often be really be more. Instead, look to intersperse more interactive components with text and graphics where they add the maximum value.<br><br>Component can either be single or spanned.",
+    "instruction": "",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_didYouKnow": {
+      "_isEnabled": true,
+      "_button": {
+        "text": "Did You Know?"
+      },
+      "_popup": {
+        "title": "Did You Know?",
+        "body": "The VFGs are rated to 75 kVA for continuous opration, up to 112.4 kVA for 5 minutes, and upto 150 kVA for 5 seconds.",
+        "_graphic": {
+          "src": "course/en/images/MC4.jpg",
+          "alt": "Test"
+        }
+      }
+    }
+  },
+  {
+    "_id": "c-20",
+    "_parentId": "b-10",
+    "_type": "component",
+    "_component": "media",
+    "_classes": "",
+    "_layout": "right",
+    "_comment": "_setCompletionOn = inview | play | ended",
+    "_setCompletionOn": "play",
+    "_useClosedCaptions": false,
+    "title": "Media",
+    "displayTitle": "",
+    "body": "Sometimes we need to make use of rich media to really drive home a point, bring a complex subject to life or just let audio to literally do the talking. This is when the media component comes to the fore.<br><br>Component can be either single or spanned.",
+    "instruction": "Select the play button to start the video.",
+    "_media": {
+      "mp4": "course/en/video/RAT_deploy.mp4",
+      "poster": "course/en/video/c-40.jpg"
+    },
+    "_transcript": {
+      "_inlineTranscript": false,
+      "_externalTranscript": false,
+      "inlineTranscriptButton": "Transcript",
+      "inlineTranscriptCloseButton": "Close Transcript",
+      "inlineTranscriptBody": "Transcript body text should go here",
+      "transcriptLinkButton": "Transcript",
+      "transcriptLink": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-25",
+    "_parentId": "b-15",
+    "_type": "component",
+    "_component": "labelGenerator",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Label Generator component",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "mobileInstruction": "",
+    "_isHighlightEnable": true,
+    "_graphic": {
+        "src": "course/en/images/Global7000.jpg",
+        "alt": "Placeholder graphic."
+    },
+    "_items":[
+        {
+            "id":1,
+            "title": "Single components",
+            "body": "Single components are interactions that enable two",
+            "_graphic": {
+            "src": "course/en/images/AdditionalAC_PowerSources.png",
+            "alt": "Label generator pop-up pin. Select here to open."
+            },
+            "strapline":"Single components",
+            "_hasExtraDescription":true,
+            "_itemTop": 55,
+            "_itemLeft": 25,
+            "_popupPosition":"bottom-left",
+            "width":50,
+            "_hasHighlight": true,
+            "_highlightWidth": 40,
+            "_highlightHeight": 40,
+            "_highlightTop": 40,
+            "_highlightLeft": 40
+        },
+        {
+            "id":2,
+            "title": "Single components",
+            "body": "Single components are interactions that enable two components in a block. These take up half of a blocks width.",
+            "_graphic": {
+                "src": "course/en/images/ElectricalPanel.png",
+                "alt": "Label generator pop-up pin. Select here to open."
+            },
+            "strapline":"Single components",
+            "_hasExtraDescription":true,
+            "_itemTop": 58,
+            "_itemLeft": 15,
+            "_popupPosition":"top-right",
+            "width":200,
+            "_hasHighlight": true,
+            "_highlightWidth": 40,
+            "_highlightHeight": 40,
+            "_highlightTop": 40,
+            "_highlightLeft": 40
+        },
+        {
+            "id":3,
+            "title": "cursor control Panel",
+            "body": " components in a block. These take up half of a blocks width.",
+            "_graphic": {
+                "src": "course/en/images/ElectricalCompLoc_RAT.png",
+                "alt": "Label generator pop-up pin. Select here to open."
+            },
+            "strapline":"cursor control Panel",
+            "_hasExtraDescription":true,
+            "_itemTop":60,
+            "_itemLeft": 55,
+            "_popupPosition":"top-left",
+            "width":50
+        },
+
+        {
+            "id":4,
+            "title": "Frequency generator and hydraulic system",
+            "body": "Single components are interactions that enable four",
+            "_graphic": {
+                "src": "course/en/images/Synoptic_Electrical_APU.png",
+                "alt": "Label generator pop-up pin. Select here to open."
+            },
+            "strapline":"Single components",
+            "_hasExtraDescription":true,
+            "_itemTop": 40,
+            "_itemLeft": 30,
+            "_popupPosition":"bottom-right",
+            "width":250
+        },
+        {
+            "id":5,
+            "title": "Frequency generator and hydraulic system",
+            "body": "Single components are interactions that enable four",
+            "_graphic": {
+                "src": "course/en/images/Synoptic_Electrical_APU.png",
+                "alt": "Label generator pop-up pin. Select here to open."
+            },
+            "strapline":"Single components",
+            "_hasExtraDescription":true,
+            "_itemTop": 40,
+            "_itemLeft": 10,
+            "_popupPosition":"right",
+            "width":350
+        },
+        {
+            "id":6,
+            "title": "Frequency generator and hydraulic system",
+            "body": "Single components are interactions that enable four",
+            "_graphic": {
+                "src": "course/en/images/Synoptic_Electrical_APU.png",
+                "alt": "Label generator pop-up pin. Select here to open."
+            },
+            "strapline":"Single components",
+            "_hasExtraDescription":true,
+            "_itemTop": 15,
+            "_itemLeft": 60,
+            "_popupPosition":"left",
+            "width":200
+        },
+        {
+            "id":7,
+            "title": "Frequency generator and hydraulic system",
+            "body": "Single components are interactions that enable four",
+            "_graphic": {
+                "src": "course/en/images/Synoptic_Electrical_APU.png",
+                "alt": "Label generator pop-up pin. Select here to open."
+            },
+            "strapline":"Single components",
+            "_hasExtraDescription":true,
+            "_itemTop": 30,
+            "_itemLeft": 60,
+            "_popupPosition":"top",
+            "width":200
+        },
+        {
+            "id":8,
+            "title": "Frequency generator and hydraulic system",
+            "body": "Single components are interactions that enable four",
+            "_graphic": {
+                "src": "course/en/images/Synoptic_Electrical_APU.png",
+                "alt": "Label generator pop-up pin. Select here to open."
+            },
+            "strapline":"Single components",
+            "_hasExtraDescription":true,
+            "_itemTop": 20,
+            "_itemLeft": 20,
+            "_popupPosition":"bottom",
+            "width":200
+        }
+      ],
+      "_showPopupText":"Show All",
+      "_hidePopupText": "Hide All",
+      "_pageLevelProgress": {
+          "_isEnabled": true
+      }
+  },
+  {
+    "_id": "c-30",
+    "_parentId": "b-20",
+    "_type": "component",
+    "_component": "accordion",
+    "_classes": "",
+    "_layout": "left",
+    "title": "Accordion",
+    "displayTitle": "",
+    "_isPartOfVerticalBlockSlider": false,
+    "body": "",
+    "instruction": "Select the headings to find out more.",
+    "_items": [
+      {
+        "id":1,
+        "title": "Block Diagram",
+        "body": "This is display text 1 and we’re using it to discuss lists.<br><br>If you need to present a list which can standalone as a piece of content, but which can also be explored in more detail, then accordions are a great choice.",
+        "_graphic": {
+          "src": "course/en/images/AdditionalAC_PowerSources.png",
+          "alt": "Placeholder graphic."
+        },
+        "_didYouKnow": {
+          "_button": {
+            "text": "Did You?"
+          },
+          "_popup": {
+            "title": "Did You?",
+            "body": "The VFGs are rated to 75 kVA for continuous opration, up to 112.4 kVA for 5 minutes, and upto 150 kVA for 5 seconds.",
+            "_graphic": {
+              "src": "course/en/images/MC4.jpg",
+              "alt": "Test"
+            }
+          }
+        }
+      },
+      {
+        "id":2,
+        "title": "Location",
+        "body": "This is display text 1 and we’re using it to discuss lists.<br><br>If you need to present a list which can standalone as a piece of content, but which can also be explored in more detail, then accordions are a great choice.",
+        "_graphic": {
+          "src": "course/en/images/ElectricalCompLoc_RAT.png",
+          "alt": "Placeholder graphic."
+        },
+        "_didYouKnow": {
+          "_button": {
+            "text": "Did You?"
+          },
+          "_popup": {
+            "title": "Did You?",
+            "body": "The VFGs are rated to 75 kVA for continuous opration, up to 112.4 kVA for 5 minutes, and upto 150 kVA for 5 seconds."
+          }
+        }
+      },
+      {
+        "id":3,
+        "title": "Synoptic",
+        "body": "This is display text 1 and we’re using it to discuss lists.<br><br>If you need to present a list which can standalone as a piece of content, but which can also be explored in more detail, then accordions are a great choice.",
+        "_graphic": {
+          "src": "course/en/images/SynopticPageOverlay4.png",
+          "alt": "Placeholder graphic."
+        }
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_didYouKnow": {
+      "_isEnabled": true,
+      "_button": {
+        "text": "Did You Know?"
+      },
+      "_popup": {
+        "title": "Did You Know?",
+        "body": "The VFGs are rated to 75 kVA for continuous opration, up to 112.4 kVA for 5 minutes, and upto 150 kVA for 5 seconds.",
+        "_graphic": {
+          "src": "course/en/images/MC4.jpg",
+          "alt": "Test"
+        }
+      }
+    }
+  },
+  {
+    "_id": "c-35",
+    "_parentId": "b-20",
+    "_type": "component",
+    "_component": "graphic",
+    "_classes": "",
+    "_layout": "right",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_graphic": {
+      "large": "course/en/images/Synoptic_Electrical_APU.png",
+      "small": "course/en/images/Synoptic_Electrical_APU.png",
+      "alt": "Placeholder graphic.",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "c-40",
+    "_parentId": "b-40",
+    "_type": "component",
+    "_component": "responsiveIframe",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Responsive iFrame component",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "mobileInstruction": "",
+    "_source": "course/en/animations/ElectricalComponentsLocation/Assets/ElectricalComponentsLocation.html",
+    "alt": "Placeholder graphic.",
+    "_width": {
+      "_small": 520,
+      "_medium": 964,
+      "_large": 1200
+    },
+    "_height": {
+      "_small": 238,
+      "_medium": 442,
+      "_large": 720
+    },
+    "_aspectRatio": 2.1090909091,
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-45",
+    "_parentId": "b-30",
+    "_type": "component",
+    "_component": "media",
+    "_classes": "",
+    "_layout": "full",
+    "_comment": "_setCompletionOn = inview | play | ended",
+    "_setCompletionOn": "play",
+    "_useClosedCaptions": false,
+    "title": "Media",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_media": {
+      "mp4": "course/en/video/RAT_deploy.mp4",
+      "poster": "course/en/video/c-40.jpg"
+    },
+    "_transcript": {
+      "_inlineTranscript": false,
+      "_externalTranscript": false,
+      "inlineTranscriptButton": "Transcript",
+      "inlineTranscriptCloseButton": "Close Transcript",
+      "inlineTranscriptBody": "Transcript body text should go here",
+      "transcriptLinkButton": "Transcript",
+      "transcriptLink": ""
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-50",
+    "_parentId": "b-45",
+   "_classes": "",
+    "_type": "component",
+    "_layout": "full",
+    "_component": "narrative",
+    "title": "Narrative",
+    "displayTitle": "",
+    "body": "This is optional body text. Select the forward arrows to move through the narrative on a desktop, or swipe the images and select the plus icons to do so on mobile.",
+    "instruction": "",
+    "_hasNavigationInTextArea": false,
+    "mobileInstruction": "This is optional instruction text that will be shown when viewed on mobile.",
+    "_setCompletionOn": "allItems",
+    "_shouldScale": true,
+    "_isPartOfVerticalBlockSlider":false,
+    "_items": [
+      {
+        "title": "Narrative stage 1 title",
+        "body": "If viewing on <a href='http://www.google.com' target='_blank'> desktop or tablet,On mobile,</a> you’ll need to select the plus icon to reveal this text <br>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.These <a href='http://www.google.com' target='_blank'>presentation components</a> can be structured in any way to help you create learning experiences that meet the needs of your learners.",
+        "bodySrc": "",
+        "_graphic": {
+          "src": "course/en/images/Synoptic_Electrical_APU.png",
+          "alt": "First graphic"
+        },
+        "_iframe": {
+          "src": "",
+          "_width": 1200,
+          "_height": 660
+        },
+        "strapline": "Here is the first..."
+      },
+      {
+        "title": "Narrative stage 2 title",
+        "body": "These components can be structured in any way to help you create learning experiences that meet the needs of your learners.These presentation components can be structured in any way to help you create learning experiences that meet the needs of your learners.",
+        "bodySrc": "",
+        "_graphic": {
+          "src": "course/en/images/ElectricalPanel.png",
+          "alt": "Second graphic"
+        },
+        "_iframe": {
+          "src": "",
+          "_width": 1200,
+          "_height": 660
+        },
+        "strapline": "Now comes the second..."
+      },
+      {
+        "title": "Narrative stage 3 title",
+        "body": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. These presentation components can be structured in any way to help you create learning experiences that meet the needs of your learners.",
+        "bodySrc": "",
+        "_graphic": {
+          "src": "",
+          "alt": "Third graphic"
+        },
+        "_iframe": {
+          "src": "course/en/edge/LinearAnimation_withCode/LinearAnimation_withCode.html",
+          "_width": 1200,
+          "_height": 660
+        },
+        "strapline": "Third here!"
+      }
+    ]
+  },
+  {
+    "_id": "c-55",
+    "_parentId": "b-50",
+    "_type": "component",
+    "_component": "embeddedLink",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Embedded Link component",
+    "displayTitle": "",
+    "body": "",
+    "_isPartOfVerticalBlockSlider": false,
+    "_page": {
+      "title": "",
+      "body": "With the advent of modern browsers, frameworks, developments in HTML 5 and responsive design approaches we're now able to create engaging learning that will work, regardless of the device being used.",
+      "audioSrc": "course/en/audio/hot-graphic1",
+      "audioTypes": [
+        {
+          "type": "mp3",
+          "codec": "audio/mpeg"
+        }
+      ],
+      "instructionSteps": [
+        "1. Step 1",
+        "2. Step 2",
+        "3. Step 3"
+      ]
+    },
+    "_height": 800,
+    "_source": "http://www.bing.com/",
+    "_isLightBox": false,
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    }
+  },
+  {
+    "_id": "c-62",
+    "_parentId": "b-25",
+    "_type": "component",
+    "_component": "graphic",
+    "_classes": "",
+    "_layout": "full",
+    "title": "c-62",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_graphic": {
+      "large": "course/en/images/Global7000.jpg",
+      "small": "course/en/images/Global7000.jpg",
+      "alt": "Placeholder graphic.",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "c-65",
+    "_parentId": "b-35",
+    "_type": "component",
+    "_component": "gmcq",
+    "_classes": "col-4",
+    "_layout": "full",
+    "_attempts": 1,
+    "_questionWeight": 1,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_selectable": 1,
+    "title": "Graphical Multiple Choice Question",
+    "displayTitle": "",
+    "body": "The graphical multiple choice question is an alternative to the standard MCQ, and allows you to ask a question and present the options as graphics (with accompanying captions). This component is always spanned.",
+    "instruction": "Choose the correct option and select Submit.",
+    "_items": [
+      {
+        "text": "Option 1",
+        "_shouldBeSelected": false,
+        "_graphic": {
+          "large": "course/en/images/MC1.jpg",
+          "small": "course/en/images/MC1.jpg",
+          "alt": "Placeholder graphic."
+        }
+      },
+      {
+        "text": "Option 2",
+        "_shouldBeSelected": false,
+        "_graphic": {
+          "large": "course/en/images/MC2.jpg",
+          "small": "course/en/images/MC2.jpg",
+          "alt": "Placeholder graphic."
+        }
+      },
+      {
+        "text": "Option 3",
+        "_shouldBeSelected": true,
+        "_graphic": {
+          "large": "course/en/images/MC3.jpg",
+          "small": "course/en/images/MC3.jpg",
+          "alt": "Placeholder graphic."
+        }
+      },
+      {
+        "text": "Option 4",
+        "_shouldBeSelected": false,
+        "_graphic": {
+          "large": "course/en/images/MC4.jpg",
+          "small": "course/en/images/MC4.jpg",
+          "alt": "Placeholder graphic."
+        }
+      }
+    ],
+    "_feedback": {
+      "correct": "Correct feedback text.<br><br>That’s correct. <strong>Option 2</strong> is what we were looking for!",
+      "_incorrect": {
+        "final": "Incorrect feedback text.<br><br>Sorry, that’s not right. In fact <strong>Option 2</strong> is what we were looking for (the clue was in the instruction text!)."
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-70",
+    "_parentId": "b-65",
+    "_classes": "",
+    "_type": "component",
+    "_component": "focalpointGenerator",
+    "_layout": "full",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "_graphic": {
+      "src": "course/en/images/ElectricalPanel.png",
+      "alt": "alt text"
+    },
+    "_items": [
+      {
+        "strapline": "TCAS and WX Radar Settings",
+        "button": "TCAS and WX Radar Settings",
+        "body": {
+          "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+          "_top": 14,
+          "_left": 35,
+          "_width": 61
+        },
+        "_graphic": [
+          {
+            "src": "",
+            "alt": "",
+            "_highlightTop": 59,
+            "_highlightLeft": 72,
+            "_highlightHeight": 30,
+            "_highlightWidth": 15
+          },
+          {
+            "src": "",
+            "alt": "",
+            "_highlightTop": 59,
+            "_highlightLeft": 29,
+            "_highlightHeight": 30,
+            "_highlightWidth": 15
+          }
+        ],
+        "_narrativegraphic": {
+          "_highlightTop": 42,
+          "_highlightLeft": 18,
+          "_highlightWidth": 13,
+          "_highlightHeight": 8
+        }
+      },
+      {
+        "button": "Navigation Data",
+        "strapline": "Navigation Data",
+        "body": {
+          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+          "_top": 62,
+          "_left": 10,
+          "_width": 78
+        },
+        "_graphic": [
+          {
+            "src": "",
+            "alt": "",
+            "_highlightTop": 26,
+            "_highlightLeft": 51,
+            "_highlightHeight": 28,
+            "_highlightWidth": 15
+          }
+        ],
+        "_narrativegraphic": {
+          "_highlightTop": 30,
+          "_highlightLeft": 33,
+          "_highlightWidth": 34,
+          "_highlightHeight": 19
+        }
+      },
+      {
+        "strapline": "Compass Rose and Heading",
+        "button": "Compass Rose and Heading",
+        "_graphic": [
+          {
+            "src": "",
+            "alt": "",
+            "_highlightTop": 23,
+            "_highlightLeft": 15,
+            "_highlightHeight": 27,
+            "_highlightWidth": 15
+          },
+          {
+            "src": "",
+            "alt": "",
+            "_highlightTop": 23,
+            "_highlightLeft": 34,
+            "_highlightHeight": 27,
+            "_highlightWidth": 15
+          }
+        ],
+        "_narrativegraphic": {
+          "_highlightTop": 33,
+          "_highlightLeft": 68,
+          "_highlightWidth": 12,
+          "_highlightHeight": 8
+        }
+      },
+      {
+        "strapline": "Navigation Busses",
+        "button": "Navigation Busses",
+        "_graphic": [
+          {
+            "src": "",
+            "alt": "",
+            "_highlightTop": 23,
+            "_highlightLeft": 72,
+            "_highlightHeight": 31,
+            "_highlightWidth": 15
+          }
+        ],
+        "_narrativegraphic": {
+          "_highlightTop": 33,
+          "_highlightLeft": 68,
+          "_highlightWidth": 12,
+          "_highlightHeight": 8
+        }
+      },
+      {
+        "strapline": "Electrical Batteries",
+        "button": "Electrical Batteries",
+        "_graphic": [
+          {
+            "src": "",
+            "alt": "",
+            "_highlightTop": 21,
+            "_highlightLeft": 35,
+            "_highlightHeight": 33,
+            "_highlightWidth": 37
+          }
+        ],
+        "_narrativegraphic": {
+          "_highlightTop": 33,
+          "_highlightLeft": 68,
+          "_highlightWidth": 12,
+          "_highlightHeight": 8
+        }
+      }
+    ]
+  },
+  {
+    "_id": "c-75",
+    "_parentId": "b-55",
+    "_type": "component",
+    "_component": "accordionWithAudio",
+    "_classes": "",
+    "_layout": "full",
+    "title": "accordionWithAudio",
+    "displayTitle": "",
+    "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </br></br>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</br></br>Here are some reasons why we think scrolling is perfectly fine - and even desirable:",
+    "instruction": "Select the heading below to reveal the text.",
+    "placeholder": "Select header",
+    "_items": [
+      {
+        "alt": "Your learners already do it",
+        "title": "Your learners already do it",
+        "body": "Visit a website today and vertical scrolling will most likely factor into the overall design of the site. Users understand what's expected of them and are scrolling down the page to read content. Feedback from our user trialling of scrolling page designs supports the assertion that users 'get it'. Actually, they preferred this approach over more traditional template designs.",
+        "audioSrc": "course/en/audio/hot-graphic1",
+        "audioTypes": [
+          {
+            "type": "mp3",
+            "codec": "audio/mpeg"
+          }
+        ]
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-80",
+    "_parentId": "b-60",
+    "_type": "component",
+    "_component": "dragAndDrop",
+    "_classes": "",
+    "_layout": "full",
+    "_attempts": 1,
+    "_questionWeight": 1,
+    "_canShowModelAnswer": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": false,
+    "title": "Basic Drag and Drop Component",
+    "displayTitle": "",
+    "body": "This is a basic drag and drop question component.",
+    "instruction": "",
+    "_defaultWidth": 291,
+    "_defaultHeight": 139,
+    "_shouldScale": true,
+    "_draggableItems": [
+      {
+        "id": "drag-01",
+        "title": "A",
+        "body": "",
+        "_graphic": {
+          "src": "course/en/images/KC_DandD_Symbology_small3.png",
+          "alt": "KC_DandD_Symbology_small3"
+        }
+      },
+      {
+        "id": "drag-02",
+        "title": "B",
+        "body": "",
+        "_graphic": {
+          "src": "course/en/images/KC_DandD_Symbology_small2.png",
+          "alt": "KC_DandD_Symbology_small2"
+        }
+      },
+      {
+        "id": "drag-03",
+        "title": "C",
+        "body": "",
+        "_graphic": {
+          "src": "course/en/images/KC_DandD_Symbology_small4.png",
+          "alt": "KC_DandD_Symbology_small4"
+        }
+      },
+      {
+        "id": "drag-04",
+        "title": "D",
+        "body": "",
+        "_graphic": {
+          "src": "course/en/images/KC_DandD_Symbology_small1.png",
+          "alt": "KC_DandD_Symbology_small1"
+        }
+      }
+    ],
+    "_droppableItems": [
+      {
+        "id": "drop-01",
+        "title": "John",
+        "body": "",
+        "_graphic": {
+          "src": "course/en/images/KC_DandD_Symbology_small4B.png",
+          "alt": "KC_DandD_Symbology_small4B"
+        },
+        "correctItemId": "drag-04"
+      },
+      {
+        "id": "drop-02",
+        "title": "Jenny",
+        "body": "",
+        "_graphic": {
+          "src": "course/en/images/KC_DandD_Symbology_small2B.png",
+          "alt": "KC_DandD_Symbology_small2B"
+        },
+        "correctItemId": "drag-02"
+      },
+      {
+        "id": "drop-03",
+        "title": "Jasmin",
+        "body": "",
+        "_graphic": {
+          "src": "course/en/images/KC_DandD_Symbology_small1B.png",
+          "alt": "KC_DandD_Symbology_small1B"
+        },
+        "correctItemId": "drag-01"
+      },
+      {
+        "id": "drop-04",
+        "title": "Johnson",
+        "body": "",
+        "_graphic": {
+          "src": "course/en/images/KC_DandD_Symbology_small3B.png",
+          "alt": "KC_DandD_Symbology_small3B"
+        },
+        "correctItemId": "drag-03"
+      }
+    ],
+    "_feedback": {
+      "correct": "This answer is 100% correct",
+      "_partlyCorrect": {
+        "final": "Party correct, sorry. Check it what you got right versus wrong."
+      },
+      "_incorrect": {
+        "final": "Sorry, they are all wrong."
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-95",
+    "_parentId": "b-72",
+    "_type": "component",
+    "_component": "iframewithedgeAnimate",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Edge Linear Animation",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "mobileInstruction": "",
+    "_edge": {
+      "_source": "course/en/edge/LinearAnimation_withCode/LinearAnimation_withCode.html",
+      "_width": 1200,
+      "_height": 660,
+      "_setCompletionOn": "end",
+      "_shouldScale": false
+  },
+  "_narrative": {
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Narrative stage 1 title",
+        "body": "This is display text 1. If viewing on desktop or tablet, this text will appear to the right of the image. On mobile, you’ll need to select the plus icon to reveal this text.",
+        "_graphic": {
+          "src": "course/en/images/LinearAnimationExample_poster1.jpg",
+          "alt": "First graphic",
+          "title": "First graphic"
+        },
+        "strapline": "Here is the first..."
+      },
+      {
+        "title": "Narrative stage 2 title",
+        "body": "",
+        "_graphic": {
+          "src": "course/en/images/LinearAnimationExample_poster1a.jpg",
+          "alt": "Second graphic",
+          "title": "Second graphic"
+        },
+        "strapline": "Now comes the second..."
+      },
+      {
+        "title": "Narrative stage 3 title",
+        "body": "This is display text 3.",
+        "_graphic": {
+          "src": "course/en/images/LinearAnimationExample_poster1b.jpg",
+          "alt": "Third graphic",
+          "title": "Third graphic"
+        },
+        "strapline": "Third here!"
+      },
+      {
+        "title": "Narrative stage 4 title",
+        "body": "This is display text 4.",
+        "_graphic": {
+          "src": "course/en/images/LinearAnimationExample_poster2.jpg",
+          "alt": "Fourth graphic",
+          "title": "Fourth graphic"
+        },
+        "strapline": "Fourth here!"
+      },
+      {
+        "title": "Narrative stage 5 title",
+        "body": "This is display text 5.",
+        "_graphic": {
+          "src": "course/en/images/LinearAnimationExample_poster2b.jpg",
+          "alt": "Fifth graphic",
+          "title": "Fifth graphic"
+        },
+        "strapline": "Fifth here!"
+      }
+    ]
+  },
+  "_pageLevelProgress": {
+    "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-97",
+    "_parentId": "b-75",
+    "_type": "component",
+    "_component": "iframewithedgeAnimate",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Edge Linear Animation",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "mobileInstruction": "",
+    "_edge": {
+      "_source": "course/en/edge/Playbar_Example3/Playbar_Example3.html",
+      "_width": 1200,
+      "_height": 660,
+      "_setCompletionOn": "end",
+      "_shouldScale": false
+  },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    },
+    "_panZoom":{
+        "_isEnabled":true,
+        "_isPartOfVerticalBlockSlider":true,
+        "_zoomLevel":1
+    }
+  },
+  {
+    "_id": "c-98",
+    "_parentId": "b-80",
+    "_type": "component",
+    "_component": "accordion",
+    "_classes": "",
+    "_layout": "left",
+    "title": "Accordion",
+    "displayTitle": "",
+    "_isPartOfVerticalBlockSlider": true,
+    "body": "",
+    "instruction": "Select the headings to find out more.",
+    "_items": [
+      {
+        "id":2,
+        "title": "Block Diagram",
+        "body": "This is display text 1 and we’re using it to discuss lists.<br><br>If you need to present a list which can standalone as a piece of content, but which can also be explored in more detail, then accordions are a great choice.",
+        "_graphic": {
+          "src": "course/en/images/ElectricalPanel.png",
+          "alt": "Placeholder graphic."
+        },
+        "_didYouKnow": {
+          "_button": {
+            "text": "Did You?"
+          },
+          "_popup": {
+            "title": "Did You?",
+            "body": "The VFGs are rated to 75 kVA for continuous opration, up to 112.4 kVA for 5 minutes, and upto 150 kVA for 5 seconds.",
+            "_graphic": {
+              "src": "course/en/images/MC4.jpg",
+              "alt": "Test"
+            }
+          }
+        }
+      },
+      {
+        "id":4,
+        "title": "Location",
+        "body": "This is display text 1 and we’re using it to discuss lists.<br><br>If you need to present a list which can standalone as a piece of content, but which can also be explored in more detail, then accordions are a great choice.",
+        "_graphic": {
+          "src": "course/en/images/ElectricalPanel.png",
+          "alt": "Placeholder graphic."
+        },
+        "_didYouKnow": {
+          "_button": {
+            "text": "Did You?"
+          },
+          "_popup": {
+            "title": "Did You?",
+            "body": "The VFGs are rated to 75 kVA for continuous opration, up to 112.4 kVA for 5 minutes, and upto 150 kVA for 5 seconds."
+          }
+        }
+      },
+      {
+        "id":6,
+        "title": "Synoptic",
+        "body": "This is display text 1 and we’re using it to discuss lists.<br><br>If you need to present a list which can standalone as a piece of content, but which can also be explored in more detail, then accordions are a great choice.",
+        "_graphic": {
+          "src": "course/en/images/ElectricalPanel.png",
+          "alt": "Placeholder graphic."
+        }
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "_didYouKnow": {
+      "_isEnabled": true,
+      "_button": {
+        "text": "Did You Know?"
+      },
+      "_popup": {
+        "title": "Did You Know?",
+        "body": "The VFGs are rated to 75 kVA for continuous opration, up to 112.4 kVA for 5 minutes, and upto 150 kVA for 5 seconds.",
+        "_graphic": {
+          "src": "course/en/images/MC4.jpg",
+          "alt": "Test"
+        }
+      }
+    }
+  },
+    {
+    "_id": "c-99",
+    "_parentId": "b-80",
+    "_type": "component",
+    "_component": "graphic",
+    "_classes": "",
+    "_layout": "right",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_graphic": {
+      "large": "course/en/images/Synoptic_Electrical_APU.png",
+      "small": "course/en/images/Synoptic_Electrical_APU.png",
+      "alt": "Placeholder graphic.",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "c-100",
+    "_parentId": "b-82",
+    "_type": "component",
+    "_component": "accordion",
+    "_classes": "",
+    "_layout": "left",
+    "title": "Accordion",
+    "displayTitle": "",
+    "_isPartOfVerticalBlockSlider": true,
+    "body": "",
+    "instruction": "Select the headings to find out more.",
+    "_items": [
+      {
+        "id":1,
+        "title": "Block Diagram",
+        "body": "This is display text 1 and we’re using it to discuss lists.<br><br>If you need to present a list which can standalone as a piece of content, but which can also be explored in more detail, then accordions are a great choice.",
+        "_graphic": {
+          "src": "course/en/images/ElectricalPanel.png",
+          "alt": "Placeholder graphic."
+        },
+        "_didYouKnow": {
+          "_button": {
+            "text": "Did You?"
+          },
+          "_popup": {
+            "title": "Did You?",
+            "body": "The VFGs are rated to 75 kVA for continuous opration, up to 112.4 kVA for 5 minutes, and upto 150 kVA for 5 seconds.",
+            "_graphic": {
+              "src": "course/en/images/MC4.jpg",
+              "alt": "Test"
+            }
+          }
+        }
+      },
+      {
+        "id":2,
+        "title": "Synoptic",
+        "body": "This is display text 1 and we’re using it to discuss lists.<br><br>If you need to present a list which can standalone as a piece of content, but which can also be explored in more detail, then accordions are a great choice.",
+        "_graphic": {
+          "src": "course/en/images/ElectricalPanel.png",
+          "alt": "Placeholder graphic."
+        }
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "_didYouKnow": {
+      "_isEnabled": true,
+      "_button": {
+        "text": "Did You Know?"
+      },
+      "_popup": {
+        "title": "Did You Know?",
+        "body": "The VFGs are rated to 75 kVA for continuous opration, up to 112.4 kVA for 5 minutes, and upto 150 kVA for 5 seconds.",
+        "_graphic": {
+          "src": "course/en/images/MC4.jpg",
+          "alt": "Test"
+        }
+      }
+    }
+  },
+ {
+    "_id": "c-101",
+    "_parentId": "b-82",
+    "_type": "component",
+    "_component": "accordion",
+    "_classes": "",
+    "_layout": "right",
+    "title": "Accordion",
+    "displayTitle": "",
+    "_isPartOfVerticalBlockSlider": true,
+    "body": "",
+    "instruction": "Select the headings to find out more.",
+    "_items": [
+      {
+        "id":1,
+        "title": "Block Diagram",
+        "body": "This is display text 1 and we’re using it to discuss lists.<br><br>If you need to present a list which can standalone as a piece of content, but which can also be explored in more detail, then accordions are a great choice.",
+        "_graphic": {
+          "src": "course/en/images/ElectricalPanel.png",
+          "alt": "Placeholder graphic."
+        },
+        "_didYouKnow": {
+          "_button": {
+            "text": "Did You?"
+          },
+          "_popup": {
+            "title": "Did You?",
+            "body": "The VFGs are rated to 75 kVA for continuous opration, up to 112.4 kVA for 5 minutes, and upto 150 kVA for 5 seconds.",
+            "_graphic": {
+              "src": "course/en/images/MC4.jpg",
+              "alt": "Test"
+            }
+          }
+        }
+      },
+      {
+        "id":2,
+        "title": "Synoptic",
+        "body": "This is display text 1 and we’re using it to discuss lists.<br><br>If you need to present a list which can standalone as a piece of content, but which can also be explored in more detail, then accordions are a great choice.",
+        "_graphic": {
+          "src": "course/en/images/ElectricalPanel.png",
+          "alt": "Placeholder graphic."
+        }
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "_didYouKnow": {
+      "_isEnabled": true,
+      "_button": {
+        "text": "Did You Know?"
+      },
+      "_popup": {
+        "title": "Did You Know?",
+        "body": "The VFGs are rated to 75 kVA for continuous opration, up to 112.4 kVA for 5 minutes, and upto 150 kVA for 5 seconds.",
+        "_graphic": {
+          "src": "course/en/images/MC4.jpg",
+          "alt": "Test"
+        }
+      }
+    }
+  },
+  {
+    "_id": "c-102",
+    "_parentId": "b-85",
+    "_type": "component",
+    "_component": "graphic",
+    "_classes": "",
+    "_layout": "full",
+    "_isOptional": true,
+    "title": "static graphic",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_graphic": {
+      "large": "course/en/images/Global7000.jpg",
+      "small": "course/en/images/Global7000.jpg",
+      "alt": "Placeholder graphic.",
+      "attribution": ""
+    },
+    "_panZoom":{
+        "_isEnabled":true,
+        "_isPartOfVerticalBlockSlider":true,
+        "_zoomLevel":1
+    }
+  },
+  {
+    "_id": "c-105",
+    "_parentId": "b-90",
+    "_type": "component",
+    "_component": "accordion",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Accordion",
+    "displayTitle": "",
+    "_isPartOfVerticalBlockSlider": true,
+    "body": "",
+    "instruction": "Select the headings to find out more.",
+    "_items": [
+      {
+        "id":1,
+        "title": "Block Diagram",
+        "body": "This is display text 1 and we’re using it to discuss lists.<br><br>If you need to present a list which can standalone as a piece of content, but which can also be explored in more detail, then accordions are a great choice.",
+        "_graphic": {
+          "src": "course/en/images/ElectricalPanel.png",
+          "alt": "Placeholder graphic."
+        },
+        "_didYouKnow": {
+          "_button": {
+            "text": "Did You?"
+          },
+          "_popup": {
+            "title": "Did You?",
+            "body": "The VFGs are rated to 75 kVA for continuous opration, up to 112.4 kVA for 5 minutes, and upto 150 kVA for 5 seconds.",
+            "_graphic": {
+              "src": "course/en/images/MC4.jpg",
+              "alt": "Test"
+            }
+          }
+        }
+      },
+      {
+        "id":2,
+        "title": "Location",
+        "body": "This is display text 1 and we’re using it to discuss lists.<br><br>If you need to present a list which can standalone as a piece of content, but which can also be explored in more detail, then accordions are a great choice.",
+        "_graphic": {
+          "src": "course/en/images/ElectricalPanel.png",
+          "alt": "Placeholder graphic."
+        },
+        "_didYouKnow": {
+          "_button": {
+            "text": "Did You?"
+          },
+          "_popup": {
+            "title": "Did You?",
+            "body": "The VFGs are rated to 75 kVA for continuous opration, up to 112.4 kVA for 5 minutes, and upto 150 kVA for 5 seconds."
+          }
+        }
+      },
+      {
+        "id":3,
+        "id":3,
+        "title": "Synoptic",
+        "body": "This is display text 1 and we’re using it to discuss lists.<br><br>If you need to present a list which can standalone as a piece of content, but which can also be explored in more detail, then accordions are a great choice.",
+        "_graphic": {
+          "src": "course/en/images/ElectricalPanel.png",
+          "alt": "Placeholder graphic."
+        }
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": false
+    },
+    "_didYouKnow": {
+      "_isEnabled": true,
+      "_button": {
+        "text": "Did You Know?"
+      },
+      "_popup": {
+        "title": "Did You Know?",
+        "body": "The VFGs are rated to 75 kVA for continuous opration, up to 112.4 kVA for 5 minutes, and upto 150 kVA for 5 seconds.",
+        "_graphic": {
+          "src": "course/en/images/MC4.jpg",
+          "alt": "Test"
+        }
+      }
+    }
+  },
+  {
+    "_id": "c-112",
+    "_parentId": "b-92",
+   "_classes": "",
+    "_type": "component",
+    "_layout": "full",
+    "_component": "narrative",
+    "title": "Narrative",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_hasNavigationInTextArea": false,
+    "mobileInstruction": "This is optional instruction text that will be shown when viewed on mobile.",
+    "_setCompletionOn": "allItems",
+    "_shouldScale": true,
+    "_isPartOfVerticalBlockSlider":true,
+    "_items": [
+      {
+        "title": "Narrative stage 1 title",
+        "body": "If viewing on <a href='http://www.google.com' target='_blank'> desktop or tablet,On mobile,</a> you’ll need to select the plus icon to reveal this text <br>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.These <a href='http://www.google.com' target='_blank'>presentation components</a> can be structured in any way to help you create learning experiences that meet the needs of your learners.",
+        "bodySrc": "",
+        "_graphic": {
+          "src": "course/en/images/Synoptic_Electrical_APU.png",
+          "alt": "First graphic"
+        },
+        "_iframe": {
+          "src": "",
+          "_width": 1200,
+          "_height": 660
+        },
+        "strapline": "Here is the first..."
+      },
+      {
+        "title": "Narrative stage 2 title",
+        "body": "These components can be structured in any way to help you create learning experiences that meet the needs of your learners.These presentation components can be structured in any way to help you create learning experiences that meet the needs of your learners.",
+        "bodySrc": "",
+        "_graphic": {
+          "src": "course/en/images/ElectricalPanel.png",
+          "alt": "Second graphic"
+        },
+        "_iframe": {
+          "src": "",
+          "_width": 1200,
+          "_height": 660
+        },
+        "strapline": "Now comes the second..."
+      },
+      {
+        "title": "Narrative stage 3 title",
+        "body": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. These presentation components can be structured in any way to help you create learning experiences that meet the needs of your learners.",
+        "bodySrc": "",
+        "_graphic": {
+          "src": "",
+          "alt": "Third graphic"
+        },
+        "_iframe": {
+          "src": "course/en/edge/LinearAnimation_withCode/LinearAnimation_withCode.html",
+          "_width": 1200,
+          "_height": 660
+        },
+        "strapline": "Third here!"
+      }
+    ]
+  },
+  {
+    "_id": "c-115",
+    "_parentId": "b-95",
+    "_type": "component",
+    "_component": "labelGenerator",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Label Generator component",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "mobileInstruction": "",
+    "_isHighlightEnable": true,
+    "_graphic": {
+        "src": "course/en/images/Global7000.jpg",
+        "alt": "Placeholder graphic."
+    },
+    "_items":[
+        {
+            "id":1,
+            "title": "Single components",
+            "body": "Single components are interactions that enable two",
+            "_graphic": {
+            "src": "course/en/images/AdditionalAC_PowerSources.png",
+            "alt": "Label generator pop-up pin. Select here to open."
+            },
+            "strapline":"Single components",
+            "_hasExtraDescription":true,
+            "_similarItemId":[4],
+            "_itemTop": 35,
+            "_itemLeft": 25,
+            "_popupPosition":"right",
+            "width":50,
+            "_hasHighlight": true,
+            "_highlightWidth": 40,
+            "_highlightHeight": 40,
+            "_highlightTop": 40,
+            "_highlightLeft": 40
+        },
+        {
+            "id":2,
+            "title": "Single components",
+            "body": "Single components are interactions that enable two components in a block. These take up half of a blocks width.",
+            "_graphic": {
+                "src": "course/en/images/ElectricalPanel.png",
+                "alt": "Label generator pop-up pin. Select here to open."
+            },
+            "strapline":"Single components",
+            "_hasExtraDescription":true,
+            "_itemTop": 28,
+            "_itemLeft": 38,
+            "_popupPosition":"top",
+            "width":200
+        },
+        {
+            "id":3,
+            "title": "cursor control Panel",
+            "body": " components in a block. These take up half of a blocks width.",
+            "_graphic": {
+                "src": "course/en/images/ElectricalCompLoc_RAT.png",
+                "alt": "Label generator pop-up pin. Select here to open."
+            },
+            "strapline":"cursor control Panel",
+            "_hasExtraDescription":true,
+            "_itemTop":60,
+            "_itemLeft": 55,
+            "_popupPosition":"left",
+            "width":300
+        },
+
+        {
+            "id":4,
+            "title": "Single components",
+            "body": "Single components are interactions that enable four",
+            "_graphic": {
+                "src": "course/en/images/Synoptic_Electrical_APU.png",
+                "alt": "Label generator pop-up pin. Select here to open."
+            },
+            "strapline":"Single components",
+            "_hasExtraDescription":true,
+            "_similarItemId":[1],
+            "_itemTop": 0,
+            "_itemLeft": 60,
+            "_popupPosition":"bottom",
+            "width":150
+        }
+      ],
+      "_showPopupText":"Show All",
+      "_hidePopupText": "Hide All",
+      "_pageLevelProgress": {
+          "_isEnabled": true
+      }
+  },
+  {
+    "_id": "c-120",
+    "_parentId": "b-100",
+    "_type": "component",
+    "_component": "mcq",
+    "_classes": "",
+    "_layout": "left",
+    "_attempts": 1,
+    "_questionWeight": 1,
+    "_canShowModelAnswer": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_selectable": 4,
+    "title": "Content objects",
+    "displayTitle": "Content objects",
+    "body": "What would you be referring to when describing a content object within Adapt?",
+    "instruction": "Choose one or more options and select Submit.",
+    "_items": [
+      {
+        "text": "Page",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Menu",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Component",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Course configuration options",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "correct",
+      "_partlyCorrect": {
+        "final": "final"
+      },
+      "_incorrect": {
+        "final": "final"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-125",
+    "_parentId": "b-100",
+    "_type": "component",
+    "_component": "graphic",
+    "_classes": "",
+    "_layout": "right",
+    "_isOptional": true,
+    "title": "c-95",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_graphic": {
+      "large": "course/en/images/single_width.jpg",
+      "small": "course/en/images/single_width.jpg",
+      "alt": "Placeholder graphic.",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "c-130",
+    "_parentId": "b-105",
+    "_type": "component",
+    "_component": "mcq",
+    "_classes": "",
+    "_layout": "left",
+    "_attempts": 1,
+    "_questionWeight": 1,
+    "_canShowModelAnswer": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_selectable": 1,
+    "title": "Adding titles to icons",
+    "displayTitle": "Adding titles to icons",
+    "body": "Version 2.0 of the framework makes it possible to add titles to the icons shown on the navigation bar. Do you know what JSON file you would need to edit to add a title to an icon?",
+    "instruction": "Choose an option and select Submit.",
+    "_items": [
+      {
+        "text": "course.json",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "config.json",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "contentObjects.json",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "components.json",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "correct",
+      "_partlyCorrect": {
+        "final": "final"
+      },
+      "_incorrect": {
+        "final": "final"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-135",
+    "_parentId": "b-105",
+    "_type": "component",
+    "_component": "blank",
+    "_classes": "",
+    "_layout": "right",
+    "title": "c-135"
+  },
+  {
+    "_id": "c-140",
+    "_parentId": "b-110",
+    "_type": "component",
+    "_component": "mcq",
+    "_classes": "",
+    "_layout": "left",
+    "_attempts": 1,
+    "_questionWeight": 1,
+    "_canShowModelAnswer": false,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_selectable": 4,
+    "title": "Control the scroll",
+    "displayTitle": "Control the scroll",
+    "body": "The <strong>Trickle</strong> extension makes it possible to control how the learner scrolls down the page, but what element of a page is it applied to?",
+    "instruction": "Choose an option and select Submit.",
+    "_items": [
+      {
+        "text": "Article",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Block",
+        "_shouldBeSelected": true
+      },
+      {
+        "text": "Component",
+        "_shouldBeSelected": false
+      },
+      {
+        "text": "Other extensions",
+        "_shouldBeSelected": false
+      }
+    ],
+    "_feedback": {
+      "correct": "correct",
+      "_partlyCorrect": {
+        "final": "final"
+      },
+      "_incorrect": {
+        "final": "final"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-145",
+    "_parentId": "b-110",
+    "_type": "component",
+    "_component": "graphic",
+    "_classes": "",
+    "_layout": "right",
+    "_isOptional": true,
+    "title": "c-95",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_graphic": {
+      "large": "course/en/images/single_width.jpg",
+      "small": "course/en/images/single_width.jpg",
+      "alt": "Placeholder graphic.",
+      "attribution": ""
+    }
+  },
+  {
+    "_id": "c-147",
+    "_parentId": "b-115",
+    "_type": "component",
+    "_component": "text",
+    "_classes": "",
+    "_layout": "full",
+    "title": "c-147",
+    "displayTitle": "",
+    "body": "The new Assessment Results component allows you to specific the assessment pass mark, and provide tailored feedback to as many scoring bands as you wish.<br><br>In this short assessment we set the pass mark at 70% or above, provided four scoring bands each of which has some accompanying feedback. The four score bands were:<br><br><ul><li>0-40% (fail)</li><li>41-69%(fail)</li><li>70-99% (pass)</li><li>100% (perfect score)</li></ul><br>So, how did you do? Let’s find out.",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-150",
+    "_parentId": "b-120",
+    "_type": "component",
+    "_component": "assessmentResults",
+    "_classes": "",
+    "_layout": "full",
+    "_isVisibleBeforeCompletion": false,
+    "_assessmentId": "a-15",
+    "title": "Results",
+    "displayTitle": "Results",
+    "body": "",
+    "instruction": "",
+    "_retry": {
+      "button": "Retry Assessment",
+      "_comment": "use {{attempts}}, {{attemptsSpent}} and {{attemptsLeft}} to display attempts",
+      "feedback": ""
+    },
+    "_comment": "use {{score}}, {{maxScore}} and {{scoreAsPercent}} to display score and percentage",
+    "_completionBody": "{{{feedback}}}",
+    "_bands": [
+      {
+        "_score": 0,
+        "feedback": "You didn’t pass, achieving a score of {{scoreAsPercent}}%.<br><br>You didn’t do so well in the Adapt assessment demo, but don’t worry. There’s lots of information about the Adapt basics on our site. We’d also suggest you pay a visit to the forums and ask our ever helpful community to answer any questions that you might have.",
+        "_allowRetry": true
+      },
+      {
+        "_score": 40,
+        "feedback": "You didn’t pass, achieving a score of {{scoreAsPercent}}%.<br><br>You already know some of the Adapt basics but please explore our site for more information. Also pay a visit to the forums and ask our ever helpful community to answer any questions that you might have.",
+        "_allowRetry": true
+      },
+      {
+        "_score": 70,
+        "feedback": "You passed, achieving a score of {{scoreAsPercent}}%.<br><br>You’re clearly already pretty knowledgeable about Adapt so, if you haven’t already, please consider sharing your expertise on the Adapt community forums.",
+        "_allowRetry": true
+      },
+      {
+        "_score": 100,
+        "feedback": "You passed, achieving a score of {{scoreAsPercent}}%.<br><br>You’re clearly already a black belt in Adapt! If you haven’t already, please consider sharing your expertise on the Adapt community forums.",
+        "_allowRetry": false
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-155",
+    "_parentId": "b-125",
+    "_type": "component",
+    "_component": "text",
+    "_classes": "",
+    "_layout": "full",
+    "title": "c-147",
+    "displayTitle": "",
+    "body": "The new Assessment Results component allows you to specific the assessment pass mark, and provide tailored feedback to as many scoring bands as you wish.<br><br>In this short assessment we set the pass mark at 70% or above, provided four scoring bands each of which has some accompanying feedback. The four score bands were:<br><br><ul><li>0-40% (fail)</li><li>41-69%(fail)</li><li>70-99% (pass)</li><li>100% (perfect score)</li></ul><br>So, how did you do? Let’s find out.",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-160",
+    "_parentId": "b-130",
+    "_type": "component",
+    "_component": "text",
+    "_classes": "",
+    "_layout": "full",
+    "title": "c-147",
+    "displayTitle": "",
+    "body": "The new Assessment Results component allows you to specific the assessment pass mark, and provide tailored feedback to as many scoring bands as you wish.<br><br>In this short assessment we set the pass mark at 70% or above, provided four scoring bands each of which has some accompanying feedback. The four score bands were:<br><br><ul><li>0-40% (fail)</li><li>41-69%(fail)</li><li>70-99% (pass)</li><li>100% (perfect score)</li></ul><br>So, how did you do? Let’s find out.",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-165",
+    "_parentId": "b-135",
+    "_type": "component",
+    "_component": "text",
+    "_classes": "",
+    "_layout": "full",
+    "title": "c-147",
+    "displayTitle": "",
+    "body": "The new Assessment Results component allows you to specific the assessment pass mark, and provide tailored feedback to as many scoring bands as you wish.<br><br>In this short assessment we set the pass mark at 70% or above, provided four scoring bands each of which has some accompanying feedback. The four score bands were:<br><br><ul><li>0-40% (fail)</li><li>41-69%(fail)</li><li>70-99% (pass)</li><li>100% (perfect score)</li></ul><br>So, how did you do? Let’s find out.",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  }
+]

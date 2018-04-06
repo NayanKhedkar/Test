@@ -1,0 +1,93 @@
+[
+	{
+		"_id": "a-05",
+		"_parentId": "co-05",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-05",
+		"displayTitle": "Lesson Name - Core Components",
+		"body": "",
+        "_TOC":{
+            "_isEnabled": true,
+            "title":""
+        }
+	},
+    {
+		"_id": "a-10",
+		"_parentId": "co-10",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-10",
+		"displayTitle": "Lesson Name - Core Components",
+		"body": "",
+        "_expandableNavBar": {
+            "_isEnabled": true
+        },
+        "_blockContentItems": {
+            "_isEnabled": true,
+            "_ghostingEffect": true,
+            "_logo":"adapt/css/assets/Global7000_LOGO.png",
+            "_color":"#B68B4B",
+            "_hasToc":true,
+            "_hasSpeakerNotes":true,
+            "_hasInfo":true
+        },
+        "_blockBullets": {
+            "_isEnabled": true
+        },
+        "_verticalBlockSlider":{
+            "_isEnabled": true,
+            "_arrows": {
+                "_isActive": true
+            },
+            "_tabs": {
+                "_isActive": true,
+                "_useBlockTitle": false
+            },
+            "_initial": 1,
+            "_height": 900
+        }
+   },
+	{
+		"_id": "a-15",
+		"_parentId": "co-15",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-15",
+		"displayTitle": "",
+		"body": "",
+		"_assessment": {
+			"_isEnabled": true,
+			"_id": "a-15",
+			"_isPercentageBased": true,
+			"_scoreToPass": 70,
+			"_includeInTotalScore": true,
+			"_assessmentWeight": 1,
+			"_banks": {
+				"_isEnabled": false,
+				"_split": "2,1",
+				"_randomisation": false
+			},
+			"_questions": {
+				"_resetType": "hard",
+				"_canShowFeedback": false,
+				"_canShowMarking": false,
+				"_canShowModelAnswer": false
+			},
+			"_isResetOnRevisit": true,
+			"_attempts": "infinite"
+		},
+		"_trickle": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "a-20",
+		"_parentId": "co-15",
+		"_type": "article",
+		"_classes": "",
+		"title": "a-20",
+		"displayTitle": "",
+		"body": ""
+	}
+]

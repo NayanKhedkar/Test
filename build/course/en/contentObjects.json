@@ -1,0 +1,62 @@
+[
+	{
+		"_id": "co-05",
+		"_parentId": "course",
+		"_type": "page",
+		"_classes": "",
+		"title": "Presentation Components",
+		"displayTitle": "Module Name - Introduction to Framework 2.0",
+		"pageBody": "",
+		"body": "",
+		"_graphic": {
+			"src": "",
+			"alt": "Placeholder graphic."
+		},
+		"linkText": "View",
+		"durationLabel": "Duration:",
+		"duration": "2 mins",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+    {
+		"_id": "co-10",
+		"_parentId": "course",
+		"_type": "page",
+		"_classes": "",
+		"title": "Presentation Components",
+		"displayTitle": "Module Name - Introduction to Framework 2.0",
+		"pageBody": "",
+		"body": "",
+		"_graphic": {
+			"src": "",
+			"alt": "Placeholder graphic."
+		},
+		"linkText": "View",
+		"durationLabel": "Duration:",
+		"duration": "2 mins",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	},
+	{
+		"_id": "co-15",
+		"_parentId": "course",
+		"_type": "page",
+		"_classes": "assessment",
+		"title": "Adapt Assessment",
+		"displayTitle": "Adapt Assessment",
+		"pageBody": "",
+		"body": "",
+		"_graphic": {
+			"src": "",
+			"alt": "Placeholder graphic."
+		},
+		"linkText": "View",
+		"durationLabel": "Duration:",
+		"duration": "2 mins",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	}
+]
